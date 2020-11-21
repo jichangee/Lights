@@ -2,10 +2,9 @@ category: Category
 tag: Tag
 prev: Newer posts
 next: Older posts
-archive_a: Archives
+# archive_a: Archives
 tagcloud: Tagcloud
 page: Page %d
-rss: Subscribe
 home: Home
 no_title: No Title
 load_comments: Load Comments

@@ -1,9 +1,3 @@
-<nav class="main-nav">
-	<% if (!is_home()){ %>
-	    <a href="<%- config.root %>">← <%= __('home') %></a>
-	<% } %>
-	<% for (var i in theme.menu){ %>
-	    <a href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
-	<% } %>
-	<a class="cta" href="/atom.xml" data-no-instant><%= __('rss') %></a>
+<nav class="main-nav" style="text-align: left; max-width: 640px;padding: 45px 20px;">
+	<a style="padding: 0;color: #333;font-size: 16px;font-weight: 500;" href="<%- config.root %>"><%= __(config.title) %></a>
 </nav>

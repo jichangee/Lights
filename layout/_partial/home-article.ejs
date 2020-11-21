@@ -1,0 +1,8 @@
+<article>
+    <header>
+        <a href="<%- url_for(item.path) %>"><h1 style="font-weight: 600;"><%= item.title %></h1></a>
+        <p class="headline">发表于<%= item.date.format('YYYY-MM-DD') %></p>
+    </header>
+</article>
+<section id="post-body" style="margin-bottom: 40px;"><%- item.content %></section>
+<hr>

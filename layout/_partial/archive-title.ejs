@@ -1,0 +1,6 @@
+<li style="border: none;padding: 5px 0; font-size: 14px;">
+    <a style="font-size: 14px;color: #253e80;display: flex;align-items: center;justify-content: space-between;font-weight: 400;" href="<%- url_for(item.path) %>">
+        <span><%= item.title || '(' + __('no_title') + ')'  %></span>
+        <span style="color: #a9a9a9;"><%= item.date.format('YYYY-MM-DD HH:mm') %></span>
+    </a>
+</li>

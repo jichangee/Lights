@@ -1,15 +1,14 @@
 <nav id="post-nav">
-    <span class="prev">
+    <!-- <span class="prev">
         <% if (page.prev){ %>
             <a href="<%- url_for(page.prev_link) %>">
                 <span class="arrow">← </span><%= __('prev') %>
             </a>
         <% } %>
-    </span>
+    </span> -->
     <span class="next">
         <% if (page.next){ %>
-            <a href="<%- url_for(page.next_link) %>">
-                <%= __('next') %><span class="arrow"> →</span>
+            <a href="./archives">所有文章<span class="arrow"> →</span>
             </a>
         <% } %>
     </span>
