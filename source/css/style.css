@@ -1,4 +1,4 @@
-::selection{background:#b0e2ff;color:#fff}
+::selection{background: #333333;;color:#fff}
 @media only screen and (min-width:767px){.gist-highlight::-webkit-scrollbar-track-piece,.highlight::-webkit-scrollbar-track-piece,html::-webkit-scrollbar-track-piece,pre::-webkit-scrollbar-track-piece{background:#eee}
 .gist-highlight::-webkit-scrollbar,.highlight::-webkit-scrollbar,html::-webkit-scrollbar,pre::-webkit-scrollbar{width:6px;height:6px}
 .gist-highlight::-webkit-scrollbar-thumb,.highlight::-webkit-scrollbar-thumb,html::-webkit-scrollbar-thumb,pre::-webkit-scrollbar-thumb{height:40px;border-radius:4px;background-color:#333}
