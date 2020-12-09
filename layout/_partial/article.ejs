@@ -1,9 +1,9 @@
 <article class="post" style="margin-top: 0;">
-    <header>
+    <header style="text-align: left;">
         <% if (item.title){ %>
-            <h1><%= item.title %></h1>
+            <h1 style="margin-bottom: 20px;"><%= item.title %></h1>
         <% } %>
-        <h2 class="headline"><%= item.date.format('YYYY-MM-DD HH:mm') %>
+        <h2 class="headline" style="margin-bottom: 0;"><%= item.date.format('YYYY-MM-DD HH:mm') %>
         <% if (item.categories && item.categories.length){ %>
             <%
             var cats = [];

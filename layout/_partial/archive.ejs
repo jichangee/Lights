@@ -1,5 +1,5 @@
 <h1 style="font-size: 24px;margin-bottom: 25px;">Archives</h1>
-<ul id="archive-list" style="margin-top: 0;">
+<ul id="archive-list" style="margin-top: 0;list-style: none;">
     <% page.posts.each(function(item){ %>
         <%- partial('_partial/archive-title', {item: item, index: false}) %>
     <% }); %>

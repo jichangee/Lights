@@ -1,7 +1,7 @@
 <article>
     <header>
-        <a href="<%- url_for(item.path) %>"><h1 style="font-weight: 600;"><%= item.title %></h1></a>
-        <p class="headline">发表于<%= item.date.format('YYYY-MM-DD') %></p>
+        <a href="<%- url_for(item.path) %>"><h1 style="font-weight: 600;margin-top: 20px;line-height: 1;"><%= item.title %></h1></a>
+        <p class="headline" style="display: inline-block;letter-spacing: 2px;font: 400 13px/1.5em 'Helvetica Neue', Helvetica, Arial, sans-serif"><%= item.date.format('YYYY-MM-DD') %></p>
     </header>
 </article>
 <section id="post-body" style="margin-bottom: 40px;"><%- item.content %></section>
