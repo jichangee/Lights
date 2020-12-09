@@ -65,13 +65,11 @@ nav.main-nav a.cta{background:#5badf0;color:#fff;margin-left:12px}
 #post-list a:hover,#post-list li:hover .dates,#title,#title:hover,a{text-decoration:none;color:#5badf0;color:#5694f1}
 #post-list a,#post-nav a,a{-webkit-transition:all .15s ease;-moz-transition:all .15s ease;-ms-transition:all .15s ease;-o-transition:all .15s ease;transition:all .15s ease}
 #post-list h2{font:400 17px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;color:#aaa;max-width:400px;margin-top:2px}
-#post-list li:last-child{border-bottom:1px solid #eee}
 #post-list a{color:#333;display:block;font:700 19px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif}
 #post-list .dates{float:right;position:relative;top:1px;font:300 17px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;color:#bbb}
 #post-list-footer{border-top:1px solid #eee;margin-top:20px;padding-top:100px}
 #archive-list{margin-top:100px}
 #post-list{margin-bottom:0}
-#archive-list li,#post-list li{border-top:1px solid #eee;padding-top:20px;padding-bottom:20px;list-style-type:none;margin-bottom:0}
 #archive-link{display:inline-block;font-size:13px;font-weight:700;border-radius:4px;padding:3px 10px 6px;box-shadow:0 0 0 1px hsla(207,83%,80%,1)}
 #archive-link:hover{background:#5694f1;color:#fff;box-shadow:0 0 0 1px #5694f1}
 #archive-link span{position:relative;top:0;font-size:17px}
